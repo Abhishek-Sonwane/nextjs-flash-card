@@ -20,7 +20,7 @@ export const ContextProvider = ({ children }) => {
   const [searchedData, setSearchedData] = useState();
 
   const router = useRouter();
-  const DEBOUNCE_DELAY = 1000;
+  const DEBOUNCE_DELAY = 500;
 
   const debounce = (func, delay) => {
     let timeoutId;
